@@ -1,0 +1,64 @@
+.SignUp {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    min-height: 350px;
+    border: 1px solid transparent;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 2px white;
+}
+
+.SignUp form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.SignUp form input {
+    width: 100%;
+    padding: 10px;
+}
+
+.SignUp form p {
+    text-align: left;
+}
+
+.SignUp form .submit {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    cursor: pointer;
+    border-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.SignUp form .submit:hover {
+    transform: scale(1.03);
+}
+
+.SignUp form label {
+    position: relative;
+}
+
+.SignUp .eye {
+    position: absolute;
+    right: 10px;
+    top: 42px;
+    transform: translateY(-50%);
+    height: 20px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.SignUp .eye:hover {
+    transform: scale(1.2) translateY(-50%);
+}
